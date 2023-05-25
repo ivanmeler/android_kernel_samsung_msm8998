@@ -315,13 +315,6 @@
 				700 42900 4220 4187 90
 				1000 42400 4170 4137 89>;
 
-		battery,health_condition = <
-			/* CYCLE ASOC */
-			1200 75	/* GOOD */
-			1400 65 /* NORMAL */
-			1600 55 /* AGED */
-			>;
-
 		battery,max_input_voltage = <12000>; /* mV */
 		battery,max_input_current = <3000>;  /* mA */
 
